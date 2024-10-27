@@ -14,6 +14,7 @@ import lombok.*;
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private long id;
 
+        
         @Column(nullable = false)
         private String firstName;
 
